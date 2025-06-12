@@ -293,18 +293,41 @@ border: 2px solid orange;
 .signature{
 float: right;
 margin-right: 180px;
+position:relative;
+bottom:200px;
 border-radius: 80px;
 border: 2px 
 padding: 10px;
-
+}
+.signature img{
+position:relative;
+left:170px;
+}
+.signature img:hover{
+background-color:rgb(201, 240, 200);
+border-radius:50px;
+padding:5px;
 }
 .signature h2{
 position:relative;
-bottom:30px;
-left:25px;
--webkit-text-stroke: 0.2px black;
+top:50px;
+float: right;
+font-family: roboto;
+font-size: 30;
+color: rgb(52, 237, 135);
 }
 body{
 background-image: url('4.jpg');
 background-size: cover; 
+}
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #dddddd;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-top: 1px solid #444;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
 }
