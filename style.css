@@ -1,0 +1,310 @@
+#head1{
+margin-top: 50px;
+margin-right: 150px;
+font-family: "roboto-flex";
+color: orange;
+text-shadow: 2px 2px 2px black;
+font-size: 60;
+position: relative;
+top: 20px;
+}
+#gmailp{
+position: relative;
+left: 370px;
+top: -3px;
+border: none;
+}
+#gmail{
+font-size: 20;
+font-family: roboto;
+position: relative;
+bottom: 20px;
+left:367px;
+color: yellow;
+text-decoration: none;
+}
+#gmail:hover{
+color: green;
+}
+#gmail:active{
+color:blue;
+}
+#gmail: visited{
+color: purple;
+}
+#linkedinp{
+position: relative;
+left: 520px;
+bottom: 18px;
+border: none;
+}
+#linkedin{
+font-family: roboto;
+font-size: 20px;
+position: relative;
+bottom: 20px;
+left:525px;
+color: yellow;
+text-decoration: none;
+}
+#linkedin:hover{
+color: green;
+}
+#linkedin:active{
+color:blue;
+}
+#linkedin: visited{
+color: purple;
+}
+.rightie{
+float:right;
+margin-right: 150px;
+margin-top: 50px;
+border-radius: 8px;
+height:290px;
+width:400px;
+border: 2px solid rgb(93, 245, 169);
+box-shadow: 3px 2px 2px black, -3px -2px 2px rgb(62, 25, 79);
+text-align:center;
+padding: 10px;
+background-color: rgb(207, 161, 227);
+}
+.rightie .rhead{
+font-family: lexend;
+}
+.rightie a{
+font-size:20px;
+text-decoration:none;
+position: relative;
+bottom: 10px;
+padding: 6px;
+color: rgb(69, 230, 211);
+font-family: "roboto flex";
+text-shadow: 0.5px 0.5px 1px rgb(207, 161, 227),-1px -1px 2px black;
+}
+.rightie:hover{
+background-color: rgb(192, 115, 240);
+}
+.rightie a:hover{
+color:rgb(2, 250, 131);
+}
+.leftie{
+height: 650px;
+width: 300px;
+float: left;
+padding: 18px;
+margin-top:-4px;
+margin-left: 10px;
+background-color: rgb(83, 181, 178);
+box-shadow: 3px 3px 4px rgb(130, 101, 22), -3px -3px 4px rgb(53, 130, 22);
+border-radius: 8px;
+border: 2.5px ridge rgb(206, 9, 232);
+}
+.leftie:hover{
+padding: 24px;
+background-color:rgb(121, 242, 194);
+}
+.leftie h2{
+font-family: lexend;
+font-size: 22px;
+text-align: center;
+color: rgb(245, 12, 67);
+text-shadow: 1px 1px 2px rgb(250, 117, 50);
+}
+.leftie h3{
+font-family: "public sans";
+margin-top: -6px;
+margin-left: 4px;
+color: rgb(57, 79, 227);
+-webkit-text-stroke: 0.4px rgb(110, 115, 186);
+text-shadow: 1px 1px 1px black;
+} 
+.leftie p{
+font-family: "public sans";
+font-size: 16px;
+margin-left: 8px;
+position: relative;
+bottom: 10px;
+}
+.leftie h3:hover{
+color:rgb(238, 182, 242);
+}
+.leftie li{
+font-family: "Roboto flex";
+margin-top: 2px;
+position: relative;
+bottom: 4px;
+font-size: 18px;
+}
+#line{
+position: relative;
+bottom: 45px;
+}
+.leftie .dates{
+font-size: 14px;
+color:grey;
+}
+.leftie .dates:hover{
+color: rgb(255, 56, 172);
+}
+.headings{
+margin-top: 5px;
+margin-left: 410px;
+font-family: roboto;
+color: rgb(52, 237, 135);
+font-size: 25px;
+text-shadow: 2px 1px 1px rgb(20,20,29);
+}
+.headings::first-letter{
+font-size:1.5em;
+font-family: delius;
+color: rgb(52, 237, 135);
+}
+.subheadings{
+margin-top: -5px;
+margin-left: 430px;
+font-family: roboto;
+color: rgb(247, 116, 79);
+font-size: 22px;
+text-shadow: 2px 1px 1px rgb(20,20,29);
+}
+.subheadings::first-letter{
+font-size:29px;
+}
+.sparagraphs{
+margin-top: -10px;
+margin-left: 440px;
+font-family: roboto;
+color: rgb(235, 240, 86);
+font-size: 20px;
+text-shadow: 2px 1px 1px rgb(20,20,29);
+}
+.sparagraphs:hover{
+color:rgb(232, 189, 32);
+font-size: 1.28em;
+}
+.spara{
+position:relative;
+left: 300px;
+bottom: 155px;
+color: rgb(235, 240, 86);
+font-family: "roboto flex";
+margin-left: 425px;
+font-size: 20px;
+margin-top:-5px;
+text-shadow: 2px 1px 1px rgb(0,0,0);
+}
+.mpara{
+position:relative;
+left: 200px;
+bottom: 310px;
+color: rgb(235, 240, 86);
+font-family: "roboto flex";
+margin-left: 425px;
+font-size: 20px;
+margin-top:-5px;
+text-shadow: 2px 1px 1px rgb(0,0,0);
+}
+.spara:hover{
+color:rgb(232, 189, 32);
+font-size: 1.28em;
+}
+.mpara:hover{
+color:rgb(232, 189, 32);
+font-size: 1.28em;
+}
+.paragraphs{
+color: rgb(235, 240, 86);
+font-family: "roboto flex";
+margin-left: 425px;
+font-size: 20px;
+margin-top:-5px;
+text-shadow: 2px 1px 1px rgb(0,0,0);
+}
+.paragraphs:hover{
+color:rgb(232, 189, 32);
+font-size: 1.28em;
+}
+.names{
+max-width:200px;
+}
+option{
+color: rgb(72, 163, 76);
+}
+.mlist{
+color: rgb(235, 240, 86);
+font-family: "roboto flex";
+margin-left: 425px;
+font-size: 20px;
+margin-top:-5px;
+text-shadow: 2px 1px 1px rgb(0,0,0);
+list-style-type: square;
+}
+.mlist:hover{
+color:rgb(232, 189, 32);
+font-size: 1.28em;
+}
+.mlist li{
+margin-top:8px;
+max-width:700px;
+}
+label{
+font-size: 25;
+color: rgb(170, 196, 37);
+text-shadow: 2px 1px 1px rgb(0,0,0);
+}
+.sppara{
+color: rgb(235, 240, 86);
+font-family: "roboto flex";
+margin-left: 425px;
+font-size: 20px;
+text-shadow: 2px 1px 1px rgb(0,0,0);
+position: relative;
+bottom: 300px;
+}
+.sheadings{
+margin-top: 5px;
+margin-left: 410px;
+font-family: roboto;
+color: rgb(52, 237, 135);
+font-size: 25px;
+text-shadow: 2px 1px 1px rgb(20,20,29);
+position: relative;
+bottom: 290px;
+}
+.sheadings::first-letter{
+font-size:1.5em;
+font-family: delius;
+color: rgb(52, 237, 135);
+}
+#box{
+font-family:delius;
+width: 150;
+height: 150;
+background-color: white;
+box-shadow: 2px 2px 1px rgb(203,147,19);
+}
+#img1{
+float: left;
+margin-left: 25px;
+margin-top: -35px;
+border: 2px solid orange;
+}
+.signature{
+float: right;
+margin-right: 180px;
+border-radius: 80px;
+border: 2px 
+padding: 10px;
+
+}
+.signature h2{
+position:relative;
+bottom:30px;
+left:25px;
+-webkit-text-stroke: 0.2px black;
+}
+body{
+background-image: url('4.jpg');
+background-size: cover; 
+}
