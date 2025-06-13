@@ -67,7 +67,9 @@ border: 2px solid rgb(93, 245, 169);
 box-shadow: 3px 2px 2px black, -3px -2px 2px rgb(62, 25, 79);
 text-align:center;
 padding: 10px;
+display: inline-block;
 background-color: rgb(207, 161, 227);
+transition: transform 1.5s ease, background-color 2s ease;
 }
 .rightie .rhead{
 font-family: lexend;
@@ -84,9 +86,12 @@ text-shadow: 0.5px 0.5px 1px rgb(207, 161, 227),-1px -1px 2px black;
 }
 .rightie:hover{
 background-color: rgb(192, 115, 240);
+transform: scale(1.05);
 }
+
 .rightie a:hover{
 color:rgb(2, 250, 131);
+transform: scale(1.4);
 }
 .leftie{
 height: 650px;
@@ -99,10 +104,11 @@ background-color: rgb(83, 181, 178);
 box-shadow: 3px 3px 4px rgb(130, 101, 22), -3px -3px 4px rgb(53, 130, 22);
 border-radius: 8px;
 border: 2.5px ridge rgb(206, 9, 232);
+transition: transform 1s ease, background-color 1s ease;
 }
 .leftie:hover{
-padding: 24px;
 background-color:rgb(121, 242, 194);
+transform: scale(1.05);
 }
 .leftie h2{
 font-family: lexend;
@@ -323,7 +329,7 @@ body{
 background-image: url('4.jpg');
 background-size: cover; 
 }
-.footer {
+.footer{
   text-align: center;
   padding: 20px;
   margin-top: 50px;
