@@ -83,9 +83,10 @@ padding: 6px;
 color: rgb(69, 230, 211);
 font-family: "roboto flex";
 text-shadow: 0.5px 0.5px 1px rgb(207, 161, 227),-1px -1px 2px black;
+transition: transform 1.5s ease, background-color 2s ease;
 }
 .rightie:hover{
-background-color: rgb(192, 115, 240);
+background-color: rgb(255, 25, 255);
 transform: scale(1.05);
 }
 
@@ -184,10 +185,12 @@ font-family: roboto;
 color: rgb(235, 240, 86);
 font-size: 20px;
 text-shadow: 2px 1px 1px rgb(20,20,29);
+transition: transform 1s ease, color 1s ease;
 }
 .sparagraphs:hover{
 color:rgb(232, 189, 32);
 font-size: 1.28em;
+transform: scale(1.02,1.02);
 }
 .spara{
 position:relative;
@@ -199,6 +202,7 @@ margin-left: 425px;
 font-size: 20px;
 margin-top:-5px;
 text-shadow: 2px 1px 1px rgb(0,0,0);
+transition: transform 0.5s ease, color 0.5s ease;
 }
 .mpara{
 position:relative;
@@ -210,14 +214,17 @@ margin-left: 425px;
 font-size: 20px;
 margin-top:-5px;
 text-shadow: 2px 1px 1px rgb(0,0,0);
+transition: transform 0.5s ease, color 0.5s ease;
 }
 .spara:hover{
-color:rgb(232, 189, 32);
+color:rgb(250, 255, 3);
 font-size: 1.28em;
+transform: scale(1.02,1.02);
 }
 .mpara:hover{
-color:rgb(232, 189, 32);
+color:rgb(250, 255, 3);
 font-size: 1.28em;
+transform: scale(1.02,1.02);
 }
 .paragraphs{
 color: rgb(235, 240, 86);
@@ -226,10 +233,11 @@ margin-left: 425px;
 font-size: 20px;
 margin-top:-5px;
 text-shadow: 2px 1px 1px rgb(0,0,0);
+transition: transform 0.5s ease, color 0.5s ease;
 }
 .paragraphs:hover{
-color:rgb(232, 189, 32);
-font-size: 1.28em;
+color:rgb(250, 255, 3);
+transform: scale(1.02,1.02);
 }
 .names{
 max-width:200px;
@@ -245,10 +253,12 @@ font-size: 20px;
 margin-top:-5px;
 text-shadow: 2px 1px 1px rgb(0,0,0);
 list-style-type: square;
+transition: transform 0.5s ease, color 0.5s ease;
 }
 .mlist:hover{
-color:rgb(232, 189, 32);
+color:rgb(250, 255, 3);
 font-size: 1.28em;
+transform: scale(1.02,1.02);
 }
 .mlist li{
 margin-top:8px;
@@ -267,6 +277,12 @@ font-size: 20px;
 text-shadow: 2px 1px 1px rgb(0,0,0);
 position: relative;
 bottom: 300px;
+transition: transform 0.5s ease, color 0.5s ease;
+}
+.sppara:hover{
+color:rgb(250, 255, 3);
+font-size: 1.28em;
+transform: scale(1.02,1.02);
 }
 .sheadings{
 margin-top: 5px;
@@ -277,6 +293,7 @@ font-size: 25px;
 text-shadow: 2px 1px 1px rgb(20,20,29);
 position: relative;
 bottom: 290px;
+transition: transform 0.5s ease, color 0.5s ease;
 }
 .sheadings::first-letter{
 font-size:1.5em;
@@ -307,15 +324,17 @@ padding: 10px;
 }
 .signature img{
 position:relative;
-background-color:rgb(184, 182, 182,0.3);
+background-color:rgb(174, 245, 225,0.3);
 border-radius:50px;
 padding:5px;
 left:170px;
+transition: transform 0.5s ease, background-color 0.5s ease;
 }
 .signature img:hover{
 background-color:rgb(72, 221, 247, 0.7);
 border-radius:50px;
 padding:5px;
+transform: scale(1.04,1.04);
 }
 .signature h2{
 position:relative;
