@@ -1,251 +1,411 @@
-<html>
-<head>
-<title>Snigdha</title>
-<link rel="icon" type="image/jpg" href="s.jpg">
-<link rel="stylesheet" href="style.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Delius&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Lexend:wght@100..900&family=Mea+Culpa&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<header>
-<img src="Snigpic.jpg" width="110"  title="Tomper" border="4" id="img1" >
-<center><h1 id="head1">PARASA SNIGDHA</h1></center>
-<a href="mailto:snigdha2k03@gmail.com" id="gmailp"><img src="Gmail.png" width="50px" ></a>
-<a href="mailto:snigdha2k03@gmail.com" id="gmail" target="blank"> Gmail</a>
-<a href="https://www.linkedin.com/in/parasa-snigdha-612ba129a" id="linkedinp" target="blank"><img src="linkedin.png" width="80px"></a>
-<a href="https://www.linkedin.com/in/parasa-snigdha-612ba129a" id="linkedin" id="linkedin" target="blank">Linkedin</a>
-<br>
-<br>
-<hr id="line">
-</header>
-<body>
-<div id="welcome">
-<h1>Welcome to My Resume</h1>
-</div>
+#head1{
+margin-top: 50px;
+text-align: center;
+font-family: "roboto-flex";
+color: orange;
+text-shadow: 2px 2px 2px black;
+font-size: 60;
+position: relative;
+top: 20px;
+}
+#gmailp{
+position: relative;
+left: 370px;
+top: -3px;
+border: none;
+}
+#gmail{
+font-size: 20;
+font-family: roboto;
+position: relative;
+bottom: 20px;
+left:367px;
+color: yellow;
+text-decoration: none;
+}
+#gmail:hover{
+color: green;
+}
+#gmail:active{
+color:blue;
+}
+#gmail: visited{
+color: purple;
+}
+#linkedinp{
+position: relative;
+left: 520px;
+bottom: 18px;
+border: none;
+}
+#linkedin{
+font-family: roboto;
+font-size: 20px;
+position: relative;
+bottom: 20px;
+left:525px;
+color: yellow;
+text-decoration: none;
+}
+#linkedin:hover{
+color: green;
+}
+#linkedin:active{
+color:blue;
+}
+#linkedin: visited{
+color: purple;
+}
+.rightie{
+float:right;
+margin-right: 150px;
+margin-top: 50px;
+border-radius: 8px;
+height:290px;
+width:400px;
+border: 2px solid rgb(93, 245, 169);
+box-shadow: 3px 2px 2px black, -3px -2px 2px rgb(62, 25, 79);
+text-align:center;
+padding: 10px;
+display: inline-block;
+background-color: rgb(207, 161, 227);
+transition: transform 1.5s ease, background-color 2s ease;
+}
+.rightie .rhead{
+font-family: lexend;
+}
+.rightie a{
+font-size:20px;
+text-decoration:none;
+position: relative;
+bottom: 10px;
+padding: 6px;
+color: rgb(69, 230, 211);
+font-family: "roboto flex";
+text-shadow: 0.5px 0.5px 1px rgb(207, 161, 227),-1px -1px 2px black;
+transition: transform 1.5s ease, background-color 2s ease;
+}
+.rightie:hover{
+background-color: rgb(255, 25, 255);
+transform: scale(1.05);
+}
 
-<div class="page-content">
-<aside>
-<div class="leftie">
-<h2>
-Educational Qualifications
-</h2>
-<h3>
-Graduation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small class="dates"> 2021-2025</small>
-</h3> 
-<p>
-Bachelor of Technology in
-Electrical and Electronics
-Engineering
-At SAHE University.
-</p>
-<h3>
-Intermediate &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp<small class="dates">2019-2021</small>
-</h3>
-<p>
-12th class in M.P.C stream at bhavishya junior college, Vijayawada. 
-</p>
-<h3>
-Schooling &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<small class="dates"> 2019</small>
-</h3>
-<p>
-Completed 10th standard at Bhashyam high school, Vijayawada
-</p>
-<h3>
-Soft Skills:
-</h3>
-<ul>
-<li> Collaborative working </li>
-<li> Creativity</li>
-<li> Adaptability</li>
-<li> Problem Solving</li>
-<li> Critical Thinking</li>
-<li> Leadership</li>
-</ul>
-<h3>
-Languages:
-</h3>
-<ul>
-<li> Telugu </li>
-<li> English</li>
-<li> Hindi</li>
-</ul>
-</div>
-</aside>
-<h1 class="headings">
-Career objective
-</h1>
-<pre class= "paragraphs" >
-   I'm an ambitious engineering graduate enthusiastic about applying my knowledge to real-world
-   technology, eager to hone skills in ever-changing electrical and electronics technology, and
-   dedicated to making a significant impact in a dynamic team environment.
-</pre>
-<div class="rightie">
-<div>
-<h2 class="rhead">
-Resume (in PDF)
-<h2>
-<a href="snigres.pdf" target="blank"> Resume </a>
-</div>
-<h2 class="rhead">
-Certifications
-</h2>
-<div>
-<a href="coursera.pdf" target="blank">cert-1</a>
-<a href="cloud.pdf" target="blank">cert-2</a>
-<a href="iot.pdf" target="blank">cert-3</a>
-</div>
-<div>
-<h2 class="rhead">
-Internships
-</h2>
-<div>
-<a href="NDEEP.pdf" target="blank">NDEEP</a>
-<a href="AWS.pdf" target="blank">AWS</a>
-</div>
-</div>
-</div>
-<h1 class=" headings">
-Technical Skills
-</h1>
-<ul class="mlist">
-<li>Power Electronics</li>
-<li>Microcontrollers</li>
-<li>VLSI</li>
-<li>Circuit Testing</li>
-<li>3D Designing</li>
-</ul>
-<h1 class="headings">
-Software skills
-</h1>
-<ul class="mlist">
-<li>MATLAB/SIMULINK</li>
-<li>Keil</li>
-<li>Arduino</li>
-<li>Canva</li>
-<li>Jupyter lab</li>
-</ul>
-<h1 class="headings">
-Certifications
-</h1>
-<ul class="mlist">
-<li>Cloud Computing - NPTEL</li>
-<li>Internet of Things - NPTEL</li>
-<li>AI for Everyone- coursera</li>
-</ul>
-<h1 class="headings">
-Projects
-</h1>
-<h2 class="subheadings">
-Secure Voting system using Raspberrypi board
-</h2>
-<pre class="sparagraphs">
-<u>Description:</u> Implemented a smart Biometric and Face authenticating voting
-system for reliablesecure voting system powered by a Raspberrypi board.
-</pre>
-<h2 class="subheadings">
-Smart IoT Switchboard with Arduino Uno
-</h2>
-<pre class="sparagraphs">
-<u>Description:</u> Developed an IoT-enabled smart Touchswitchboard to seamlessly
-connected wide number of switches in a single board with cost-effective and
-space-saving constraints.
-</pre>
-<h2 class="subheadings">
-Machine learning-Driven Fault Detection in Switched Reluctance Motor
-</h2>
-<pre class="sparagraphs">
-<u>Description:</u> Simulated a Switched Reluctance Motor (SRM) using a 
-sophisticated Finite Element Method (FEM) tool to analyze its performance
-under both optimal and fault-induced conditions. Generated datasets capturing
-motor behavior during these varied states and used them to train a 
-Machine Learning (ML) model capable of monitoring real-time motor operation.
-The model can accurately detect potential faults, identify the affected phase,
-and quantify deviations in winding current or torque compared to normal
-operating conditions.
-</pre>
-<h1 class="headings">
-Internships
-</h1>
-<ul class="mlist">
-<li>Completed an Internship at NDEEP CONNECT on 
-Electrical Vehicles. Gained knowledge on EV
-infrastructure and trending technologies and
-working framework.
-</li>
-<li>Done a few simulations on EV assembly and modelling. Observed the working of an
-EV under different operating conditions and environments.
-</li>
-<li>Also completed a 2-month Internship at SHIKSHA as a campus ambassador. Provided
-with valuable insights about my college while enhancing my teamwork and
-communication skills.</li>
-</ul>
-<h1 class="headings">
-Achievements
-</h1>
-<ul class="mlist">
-<li>Participated in E-Verse, Technical Fest, Organized by IE student chapter, Department
-of EEE, VRSEC.
-</li>
-<li>Took part in MEDHA (Technical Quiz) event of LAKSHYA 2K24, Organized by
-Department of EEE, LBRCE.</li>
-<li>Received a merit trophy and certificate of recognition from APSSDC-Naandi’s
-Foundation and Mahindra pride classroom for emplayability skills. Excelled in communication, Professional Etiquette, Time Management, Problem
-Solving and Adaptability skills after the completion of the course.</li>
-</ul>
-<h1 class="headings">
-Personal Details
-</h1>
-<div class="names">
-<pre class="paragraphs">
-Father Name 
-Mother Name 
-Date Of Birth
-Address
- 
-E-mail
-</pre> 
-</div>
-<div class="names">
-<pre class="spara">
-Parasa christison
-Parasa jyothi
-25-11-2003
-32-22-18, Boyapati Madhavarao street, Moghalrapuram,
-Vijayawada, Andhra Pradesh.
-snigdha2k03@gmail.com
-</pre>
-<pre class="mpara">
-:
-:
-:
-:
+.rightie a:hover{
+color:rgb(2, 250, 131);
+transform: scale(1.4);
+}
+.leftie{
+height: 650px;
+width: 300px;
+float: left;
+padding: 18px;
+margin-top:-4px;
+margin-left: 10px;
+background-color: rgb(83, 181, 178);
+box-shadow: 3px 3px 4px rgb(130, 101, 22), -3px -3px 4px rgb(53, 130, 22);
+border-radius: 8px;
+border: 2.5px ridge rgb(206, 9, 232);
+transition: transform 1s ease, background-color 1s ease;
+}
+.leftie:hover{
+background-color:rgb(121, 242, 194);
+transform: scale(1.05);
+}
+.leftie h2{
+font-family: lexend;
+font-size: 22px;
+text-align: center;
+color: rgb(245, 12, 67);
+text-shadow: 1px 1px 2px rgb(250, 117, 50);
+}
+.leftie h3{
+font-family: "public sans";
+margin-top: -6px;
+margin-left: 4px;
+color: rgb(57, 79, 227);
+-webkit-text-stroke: 0.4px rgb(110, 115, 186);
+text-shadow: 1px 1px 1px black;
+} 
+.leftie p{
+font-family: "public sans";
+font-size: 16px;
+margin-left: 8px;
+position: relative;
+bottom: 10px;
+}
+.leftie h3:hover{
+color:rgb(238, 182, 242);
+}
+.leftie li{
+font-family: "Roboto flex";
+margin-top: 2px;
+position: relative;
+bottom: 4px;
+font-size: 18px;
+}
+#line{
+position: relative;
+bottom: 45px;
+}
+.leftie .dates{
+font-size: 14px;
+color:grey;
+}
+.leftie .dates:hover{
+color: rgb(255, 56, 172);
+}
+.headings{
+margin-top: 5px;
+margin-left: 410px;
+font-family: roboto;
+color: rgb(52, 237, 135);
+font-size: 25px;
+text-shadow: 2px 1px 1px rgb(20,20,29);
+}
+.headings::first-letter{
+font-size:1.5em;
+font-family: delius;
+color: rgb(52, 237, 135);
+}
+.subheadings{
+margin-top: -5px;
+margin-left: 430px;
+font-family: roboto;
+color: rgb(247, 116, 79);
+font-size: 22px;
+text-shadow: 2px 1px 1px rgb(20,20,29);
+}
+.subheadings::first-letter{
+font-size:29px;
+}
+.sparagraphs{
+margin-top: -10px;
+margin-left: 440px;
+font-family: roboto;
+color: rgb(235, 240, 86);
+font-size: 20px;
+text-shadow: 2px 1px 1px rgb(20,20,29);
+transition: transform 1s ease, color 1s ease;
+}
+.sparagraphs:hover{
+color:rgb(232, 189, 32);
+font-size: 1.28em;
+transform: scale(1.02,1.02);
+}
+.spara{
+position:relative;
+left: 300px;
+bottom: 155px;
+color: rgb(235, 240, 86);
+font-family: "roboto flex";
+margin-left: 425px;
+font-size: 20px;
+margin-top:-5px;
+text-shadow: 2px 1px 1px rgb(0,0,0);
+transition: transform 0.5s ease, color 0.5s ease;
+}
+.mpara{
+position:relative;
+left: 200px;
+bottom: 310px;
+color: rgb(235, 240, 86);
+font-family: "roboto flex";
+margin-left: 425px;
+font-size: 20px;
+margin-top:-5px;
+text-shadow: 2px 1px 1px rgb(0,0,0);
+transition: transform 0.5s ease, color 0.5s ease;
+}
+.spara:hover{
+color:rgb(250, 255, 3);
+font-size: 1.28em;
+transform: scale(1.02,1.02);
+}
+.mpara:hover{
+color:rgb(250, 255, 3);
+font-size: 1.28em;
+transform: scale(1.02,1.02);
+}
+.paragraphs{
+color: rgb(235, 240, 86);
+font-family: "roboto flex";
+margin-left: 425px;
+font-size: 20px;
+margin-top:-5px;
+text-shadow: 2px 1px 1px rgb(0,0,0);
+transition: transform 0.5s ease, color 0.5s ease;
+}
+.paragraphs:hover{
+color:rgb(250, 255, 3);
+transform: scale(1.02,1.02);
+}
+.names{
+max-width:200px;
+}
+option{
+color: rgb(72, 163, 76);
+}
+.mlist{
+color: rgb(235, 240, 86);
+font-family: "roboto flex";
+margin-left: 425px;
+font-size: 20px;
+margin-top:-5px;
+text-shadow: 2px 1px 1px rgb(0,0,0);
+list-style-type: square;
+transition: transform 0.5s ease, color 0.5s ease;
+}
+.mlist:hover{
+color:rgb(250, 255, 3);
+font-size: 1.28em;
+transform: scale(1.02,1.02);
+}
+.mlist li{
+margin-top:8px;
+max-width:700px;
+}
+label{
+font-size: 25;
+color: rgb(170, 196, 37);
+text-shadow: 2px 1px 1px rgb(0,0,0);
+}
+.sppara{
+color: rgb(235, 240, 86);
+font-family: "roboto flex";
+margin-left: 425px;
+font-size: 20px;
+text-shadow: 2px 1px 1px rgb(0,0,0);
+position: relative;
+bottom: 300px;
+transition: transform 0.5s ease, color 0.5s ease;
+}
+.sppara:hover{
+color:rgb(250, 255, 3);
+font-size: 1.28em;
+transform: scale(1.02,1.02);
+}
+.sheadings{
+margin-top: 5px;
+margin-left: 410px;
+font-family: roboto;
+color: rgb(52, 237, 135);
+font-size: 25px;
+text-shadow: 2px 1px 1px rgb(20,20,29);
+position: relative;
+bottom: 290px;
+transition: transform 0.5s ease, color 0.5s ease;
+}
+.sheadings::first-letter{
+font-size:1.5em;
+font-family: delius;
+color: rgb(52, 237, 135);
+}
+#box{
+font-family:delius;
+width: 150;
+height: 150;
+background-color: white;
+box-shadow: 2px 2px 1px rgb(203,147,19);
+}
+#img1{
+float: left;
+margin-left: 25px;
+margin-top: -35px;
+border: 2px solid orange;
+transition: transform 1s ease;
+}
+#img1:hover{
+transform: scale(1.03,1.03) translate(10px,10px);
+}
+.signature{
+float: right;
+margin-right: 180px;
+position:relative;
+bottom:200px;
+border-radius: 80px;
+border: 2px 
+padding: 10px;
+}
+.signature img{
+position:relative;
+background-color:rgb(174, 245, 225,0.3);
+border-radius:50px;
+padding:5px;
+left:170px;
+transition: transform 0.5s ease, background-color 0.5s ease;
+}
+.signature img:hover{
+background-color:rgb(72, 221, 247, 0.7);
+border-radius:50px;
+padding:5px;
+transform: scale(1.04,1.04);
+}
+.signature h2{
+position:relative;
+top:50px;
+float: right;
+font-family: roboto;
+font-size: 30;
+color: rgb(52, 237, 135);
+}
+header{
+opacity:0;
+animation: disp 1.2s ease 3.2s forwards;
+}
+@keyframes disp{
+to{ opacity:1;}
+}
+body{
+background-image: url('4.jpg');
+background-size: cover; 
+}
+.page-content {
+opacity: 0;
+transform: translateY(60px);
+animation: fadeIn 1.8s ease 3.5s forwards; 
+}
+@keyframes fadeIn {
+to{opacity: 1;
+transform: translateY(0px);
+}
+}
+footer{
+text-align: center;
+padding: 20px;
+margin-top: 50px;
+margin-right:-8px;
+margin-left:-8px;
+margin-bottom: -6px;
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+color: #dddddd;
+background-color: rgba(0, 0, 0, 0.3);
+border-top: 1px solid #444;
+box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+}
+#welcome {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-image: url(wcm.jpg);
+background-size:cover;
+background-position: center;
+color: rgb(96, 202, 209);
+text-shadow: 1px 1px 4px black;
+font-family:"bonheur royale";
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 3em;
+z-index: 9999;
+animation: fadeOut 2s ease 2s forwards;
+}
 
-:
-</pre>
-</div>
-<h1 class="sheadings">
-Work experience
-</h1>
-<pre class="sppara">
-Working as a circuit testing Engineer at Vector Technics from May,2025.
-</pre>
-<h1 class="sheadings">
-Declaration
-</h1>
-<pre class="sppara">
-I hereby declare that all of the information mentioned above is correct and true 
-to the best of my knowledge.
-</pre>
-<div class="signature">
-<img src="snig_sign.png" width="190px" height="71px">
-<h2>Signature</h2> 
-</div>
-<br>
-<br>
-<footer>
-<p>&copy; 2025 Parasa Snigdha. All rights reserved.</p>
-</footer>
-</div>
-</body>
-</html>
+@keyframes fadeOut {
+to {
+opacity: 0;
+visibility: hidden;
+}
+}
